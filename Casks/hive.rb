@@ -1,6 +1,6 @@
 cask "hive" do
-  version "1.0.3"
-  sha256 "cd2e7344ea52af01235513439226525b191f53e2fd96f6247095331be8f738fe"
+  version "1.0.4"
+  sha256 "b37a3ddbbbd2e13696839d9cab84a104a4311f7762e155c5ae1c946725ddc029"
   url "https://github.com/morapelker/hive/releases/download/v#{version}/Hive-#{version}.dmg"
   name "Hive"
   homepage "https://github.com/morapelker/hive"
