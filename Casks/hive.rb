@@ -1,13 +1,13 @@
 cask "hive" do
-  version "1.0.11"
+  version "1.0.12"
 
   on_arm do
-    sha256 "81f8e851a0b0e24382a8fe33d90cfba6eec7a7fa5503b6deb66c8207f13684df"
+    sha256 "c4341c5de76bf4e25a4687cf0eef550b05096e5ceb5da5c1a0a6fda99eb4ca48"
     url "https://github.com/morapelker/hive/releases/download/v#{version}/Hive-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "3e85d8b98582fd06fbad753154d63f92572b8445057491b0d805b7d796847b2a"
+    sha256 "8270b7bbd3a044d02444823f8e63b22f1d3ce50a5554dfc69b85ae5231063170"
     url "https://github.com/morapelker/hive/releases/download/v#{version}/Hive-#{version}.dmg"
   end
 
