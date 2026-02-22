@@ -1,13 +1,13 @@
 cask "hive-canary" do
-  version "1.0.19-canary.10"
+  version "1.0.35-canary.1"
 
   on_arm do
-    sha256 "c5866d0efebb2365ebdbb2767345d0fe12b62404add8c86382827cb123ec42e7"
+    sha256 "a8c87fff9387a6dd2c21d9985765c565eb7a79d45037adec3a120ff4d6124a7f"
     url "https://github.com/morapelker/hive/releases/download/v#{version}/Hive-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "b2b358d9c5a0a5ec5f8081863f8f0a7ba44faa890790afbf1cbc4f0fa9b95341"
+    sha256 "dae49ef4a37b9ec022028fa85bd1d1d3371f2601818156b801109dbf2c305fce"
     url "https://github.com/morapelker/hive/releases/download/v#{version}/Hive-#{version}.dmg"
   end
 
